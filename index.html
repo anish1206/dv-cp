@@ -7,9 +7,75 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&family=JetBrains+Mono&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Cinematic Landing Page -->
+    <section id="landing" class="landing-hero">
+        <div class="landing-container">
+            <!-- Background Video -->
+            <video class="landing-background-video" autoplay loop muted playsinline>
+                <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_170732_8a9ccda6-5cff-4628-b164-059c500a2b41.mp4" type="video/mp4">
+            </video>
+            
+            <!-- Noise Overlay -->
+            <div class="noise-overlay"></div>
+            
+            <!-- Gradient Overlay -->
+            <div class="gradient-overlay"></div>
+            
+            <!-- Content -->
+            <div class="landing-content">
+                <div class="landing-left">
+                    <div class="landing-label">Data-Driven Cinema</div>
+                    
+                    <h1 class="landing-title">
+                        <span class="title-line">The Filmmaker's</span>
+                        <span class="title-line title-main">Playbook</span>
+                    </h1>
+                </div>
+                
+                <div class="landing-right">
+                    <p class="landing-subtitle">
+                        Where <em>data meets art</em>, and numbers tell stories. Discover the 5 rules that separate successful films from the rest.
+                    </p>
+                    
+                    <div class="landing-stats">
+                        <div class="stat-pill">
+                            <span class="stat-number">7,070</span>
+                            <span class="stat-label">Films Analyzed</span>
+                        </div>
+                        <div class="stat-pill">
+                            <span class="stat-number">19.6%</span>
+                            <span class="stat-label">Hit the Sweet Spot</span>
+                        </div>
+                        <div class="stat-pill">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Actionable Rules</span>
+                        </div>
+                    </div>
+                    
+                    <button class="landing-cta" onclick="document.getElementById('main-content').scrollIntoView({behavior: 'smooth'})">
+                        <span>Discover the Rules</span>
+                        <div class="cta-circle">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+                <span class="scroll-text">Scroll</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper -->
+    <div id="main-content">
     <!-- Top Navigation -->
     <nav class="top-nav">
         <div class="nav-container">
@@ -576,6 +642,8 @@
             </div>
         </div>
     </footer>
+    </div>
+    <!-- End Main Content Wrapper -->
 
     <script src="script.js"></script>
 </body>
