@@ -115,6 +115,60 @@ The histogram of audience ratings shows that the **average movie scores 6.54 out
 
 ---
 
+## Bonus Insights: What Else Matters?
+
+Beyond the 5 core rules, our analysis revealed several additional patterns that can help you make smarter decisions:
+
+### Popularity ≠ Revenue
+
+**The Data:** The scatter plot of Popularity vs Revenue shows a weak correlation between social media buzz and actual box office performance. Many high-popularity films fail to generate proportional revenue, while some low-popularity films become sleeper hits.
+
+![Popularity vs Revenue](readme_graphs/graph9_popularity_vs_revenue.png)
+
+**Actionable Advice:** Don't chase viral marketing at the expense of substance. Social media buzz is "noise" — it can help, but it doesn't guarantee financial success. Focus on making a good film first, then market it.
+
+---
+
+### Single-Genre Films Outperform Multi-Genre Films
+
+**The Data:** Films that stick to a single genre have higher median ROI than those that try to blend multiple genres. The data shows that "genre-mixing" doesn't necessarily pay off — focused, single-genre films perform better financially.
+
+![Genre Count vs ROI](readme_graphs/graph10_genre_count_roi.png)
+
+**Actionable Advice:** Don't try to be everything to everyone. Pick one genre and execute it well. A great Horror film beats a mediocre Horror-Comedy-Thriller hybrid.
+
+---
+
+### The Film Industry is Growing
+
+**The Data:** Revenue trends across decades show how the film industry's financial performance has evolved over time. Understanding these market trends helps you know what kind of landscape you're entering as a new filmmaker.
+
+![Revenue by Decade](readme_graphs/graph12_revenue_by_decade.png)
+
+**Actionable Advice:** The market is bigger than ever, but so is the competition. Use this historical context to set realistic expectations for your debut film's potential.
+
+---
+
+### Audience Engagement vs Quality
+
+**The Data:** The scatter plot of Vote Count vs Rating reveals the relationship between audience engagement (number of votes) and quality (rating). Films with high engagement don't always have high ratings, and vice versa — some niche films with few votes dominate the top scores.
+
+![Vote Count vs Rating](readme_graphs/graph13_vote_count_rating.png)
+
+**Actionable Advice:** You don't need mass appeal to make a great film. A smaller, passionate audience can be just as valuable as a large, lukewarm one. Focus on resonating deeply with your target demographic.
+
+---
+
+### Critical Acclaim vs Financial Success
+
+**The Data:** The scatter plot of Rating vs Profit directly shows whether critical acclaim and financial success go hand in hand or are completely independent. The data reveals that these two metrics don't always align — some critically acclaimed films struggle financially, while some profitable films have mediocre ratings.
+
+![Rating vs Profit](readme_graphs/graph14_rating_vs_profit.png)
+
+**Actionable Advice:** The "Sweet Spot" (High ROI + High Rating) is rare for a reason. If you have to choose, prioritize financial sustainability first — you can't make a second film if your first one bankrupts you. But aim for both whenever possible.
+
+---
+
 ## Summary: The 5 Rules at a Glance
 
 | Rule | What to Do |

@@ -24,6 +24,26 @@
             <!-- Gradient Overlay -->
             <div class="gradient-overlay"></div>
             
+            <!-- Landing Navigation -->
+            <nav class="landing-nav">
+                <div class="landing-nav-container">
+                    <div class="nav-brand">
+                        <span class="brand-mark">✦</span>
+                        <span class="brand-name">Filmmaker's Playbook</span>
+                    </div>
+                    <div class="nav-links">
+                        <a href="#overview" class="nav-link">Overview</a>
+                        <a href="#insights" class="nav-link">5 Insights</a>
+                        <a href="#data" class="nav-link">Data Insights</a>
+                        <a href="#methodology" class="nav-link">Methodology</a>
+                    </div>
+                    <div class="nav-actions">
+                        <a href="#data" class="button-text-link-landing">View Data</a>
+                        <a href="#insights" class="button-primary-landing">Get Started</a>
+                    </div>
+                </div>
+            </nav>
+            
             <!-- Content -->
             <div class="landing-content">
                 <div class="landing-left">
@@ -37,7 +57,7 @@
                 
                 <div class="landing-right">
                     <p class="landing-subtitle">
-                        Where <em>data meets art</em>, and numbers tell stories. Discover the 5 rules that separate successful films from the rest.
+                        Where <em>data meets art</em>, and numbers tell stories. Discover 5 key findings that separate successful films from the rest.
                     </p>
                     
                     <div class="landing-stats">
@@ -51,12 +71,12 @@
                         </div>
                         <div class="stat-pill">
                             <span class="stat-number">5</span>
-                            <span class="stat-label">Actionable Rules</span>
+                            <span class="stat-label">Key Findings</span>
                         </div>
                     </div>
                     
                     <button class="landing-cta" onclick="document.getElementById('main-content').scrollIntoView({behavior: 'smooth'})">
-                        <span>Discover the Rules</span>
+                        <span>Explore the Findings</span>
                         <div class="cta-circle">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -76,32 +96,12 @@
 
     <!-- Main Content Wrapper -->
     <div id="main-content">
-    <!-- Top Navigation -->
-    <nav class="top-nav">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <span class="brand-mark">✦</span>
-                <span class="brand-name">Filmmaker's Playbook</span>
-            </div>
-            <div class="nav-links">
-                <a href="#overview" class="nav-link">Overview</a>
-                <a href="#rules" class="nav-link">5 Rules</a>
-                <a href="#data" class="nav-link">Data Insights</a>
-                <a href="#methodology" class="nav-link">Methodology</a>
-            </div>
-            <div class="nav-actions">
-                <a href="#data" class="button-text-link">View Data</a>
-                <a href="#rules" class="button-primary">Get Started</a>
-            </div>
-        </div>
-    </nav>
-
     <!-- Hero Section -->
     <section class="hero-band">
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="display-xl">The Data-Driven Filmmaker's Playbook</h1>
-                <p class="hero-subtitle">5 Concrete Rules for a Successful Debut Movie</p>
+                <p class="hero-subtitle">5 Data-Backed Findings for a Successful Debut Film</p>
                 <p class="body-md hero-description">
                     Based on the analysis of <strong>7,070 films</strong> (cleaned from 60,000 raw TMDB entries), 
                     we isolated the exact characteristics of movies that achieve the <strong>"Sweet Spot"</strong> — 
@@ -118,11 +118,11 @@
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">5</div>
-                        <div class="stat-label">Actionable Rules</div>
+                        <div class="stat-label">Key Findings</div>
                     </div>
                 </div>
                 <div class="hero-actions">
-                    <a href="#rules" class="button-primary">Explore the 5 Rules</a>
+                    <a href="#insights" class="button-primary">Explore the 5 Findings</a>
                     <a href="#data" class="button-secondary">View Full Analysis</a>
                 </div>
             </div>
@@ -173,9 +173,9 @@
                             <path d="M4 32 L20 32 L12 28 Z" fill="#cc785c"/>
                         </svg>
                     </div>
-                    <h3 class="title-md">Actionable Rules</h3>
+                    <h3 class="title-md">Data-Backed Findings</h3>
                     <p class="body-md">
-                        No vague advice. Each rule provides specific, measurable guidance you can 
+                        No vague advice. Each finding provides specific, measurable guidance you can 
                         apply directly to your debut film project.
                     </p>
                 </div>
@@ -197,13 +197,13 @@
         </div>
     </section>
 
-    <!-- The 5 Rules Section -->
-    <section id="rules" class="section-band section-dark">
+    <!-- The 5 Findings Section -->
+    <section id="insights" class="section-band section-dark">
         <div class="section-container">
             <div class="section-header">
-                <h2 class="display-lg">The 5 Rules</h2>
+                <h2 class="display-lg">5 Key Findings</h2>
                 <p class="title-md section-intro">
-                    Follow these data-backed principles to drastically increase your probability of success
+                    What the data tells us — patterns that consistently appear in films that achieve both commercial success and critical acclaim
                 </p>
             </div>
 
@@ -456,8 +456,12 @@
             <div class="section-header">
                 <span class="badge-pill">BONUS INSIGHTS</span>
                 <h2 class="display-lg">Understanding the Landscape</h2>
+                <p class="title-md section-intro">
+                    Beyond the 5 core findings, these additional patterns reveal deeper truths about what makes films succeed
+                </p>
             </div>
 
+            <!-- Budget & Revenue Reality -->
             <div class="insight-grid">
                 <div class="insight-card">
                     <div class="insight-visual">
@@ -497,6 +501,121 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Marketing vs Reality -->
+            <div class="section-divider"></div>
+            <div class="section-subheader">
+                <h3 class="display-md">Marketing vs Reality</h3>
+                <p class="body-lg">Don't be fooled by vanity metrics — here's what actually matters</p>
+            </div>
+
+            <div class="insight-grid">
+                <div class="insight-card">
+                    <div class="insight-visual">
+                        <img src="readme_graphs/graph9_popularity_vs_revenue.png" alt="Popularity vs Revenue" class="insight-graph">
+                    </div>
+                    <div class="insight-content">
+                        <h3 class="title-lg">Popularity ≠ Revenue</h3>
+                        <p class="body-md">
+                            Social media buzz and trending scores show a <strong>weak correlation with actual box office performance</strong>. 
+                            Many high-popularity films fail to generate proportional revenue, while some low-popularity films become sleeper hits.
+                        </p>
+                        <p class="body-md">
+                            <strong>Actionable Advice:</strong> Don't chase viral marketing at the expense of substance. 
+                            Social media buzz is "noise" — focus on making a good film first, then market it.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="insight-visual">
+                        <img src="readme_graphs/graph10_genre_count_roi.png" alt="Genre Count vs ROI" class="insight-graph">
+                    </div>
+                    <div class="insight-content">
+                        <h3 class="title-lg">Single-Genre Films Win</h3>
+                        <p class="body-md">
+                            Films that stick to a <strong>single genre have higher median ROI</strong> than those that try to blend multiple genres. 
+                            The data shows that "genre-mixing" doesn't necessarily pay off — focused, single-genre films perform better financially.
+                        </p>
+                        <p class="body-md">
+                            <strong>Actionable Advice:</strong> Don't try to be everything to everyone. 
+                            Pick one genre and execute it well. A great Horror film beats a mediocre Horror-Comedy-Thriller hybrid.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audience Dynamics -->
+            <div class="section-divider"></div>
+            <div class="section-subheader">
+                <h3 class="display-md">Audience Dynamics</h3>
+                <p class="body-lg">Understanding the relationship between engagement, quality, and profit</p>
+            </div>
+
+            <div class="insight-grid">
+                <div class="insight-card">
+                    <div class="insight-visual">
+                        <img src="readme_graphs/graph13_vote_count_rating.png" alt="Vote Count vs Rating" class="insight-graph">
+                    </div>
+                    <div class="insight-content">
+                        <h3 class="title-lg">Engagement vs Quality</h3>
+                        <p class="body-md">
+                            Films with high engagement (vote count) don't always have high ratings, and vice versa. 
+                            Some <strong>niche films with few votes dominate the top scores</strong>, while mass-appeal films can have mediocre ratings.
+                        </p>
+                        <p class="body-md">
+                            <strong>Actionable Advice:</strong> You don't need mass appeal to make a great film. 
+                            A smaller, passionate audience can be just as valuable as a large, lukewarm one. 
+                            Focus on resonating deeply with your target demographic.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="insight-visual">
+                        <img src="readme_graphs/graph14_rating_vs_profit.png" alt="Rating vs Profit" class="insight-graph">
+                    </div>
+                    <div class="insight-content">
+                        <h3 class="title-lg">Critical Acclaim vs Financial Success</h3>
+                        <p class="body-md">
+                            The scatter plot directly shows that <strong>critical acclaim and financial success don't always align</strong>. 
+                            Some critically acclaimed films struggle financially, while some profitable films have mediocre ratings.
+                        </p>
+                        <p class="body-md">
+                            <strong>Actionable Advice:</strong> The "Sweet Spot" (High ROI + High Rating) is rare for a reason. 
+                            If you have to choose, prioritize financial sustainability first — you can't make a second film if your first one bankrupts you. 
+                            But aim for both whenever possible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Market Context -->
+            <div class="section-divider"></div>
+            <div class="section-subheader">
+                <h3 class="display-md">Market Context</h3>
+                <p class="body-lg">Understanding the industry landscape you're entering</p>
+            </div>
+
+            <div class="insight-grid">
+                <div class="insight-card insight-card-full">
+                    <div class="insight-visual">
+                        <img src="readme_graphs/graph12_revenue_by_decade.png" alt="Revenue by Decade" class="insight-graph">
+                    </div>
+                    <div class="insight-content">
+                        <h3 class="title-lg">The Film Industry is Growing</h3>
+                        <p class="body-md">
+                            Revenue trends across decades show how the film industry's financial performance has evolved over time. 
+                            The market has grown significantly, but so has the competition.
+                        </p>
+                        <p class="body-md">
+                            <strong>Actionable Advice:</strong> The market is bigger than ever, but so is the competition. 
+                            Use this historical context to set realistic expectations for your debut film's potential. 
+                            The opportunities are there, but you need to be strategic.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -504,9 +623,9 @@
     <section class="cta-band-coral">
         <div class="cta-container">
             <h2 class="display-sm">Ready to Make Your Debut Film?</h2>
-            <p class="title-md">Follow these 5 data-backed rules to maximize your chances of success</p>
+            <p class="title-md">Apply these 5 data-backed findings to maximize your chances of success</p>
             <div class="cta-actions">
-                <a href="#rules" class="button-secondary-on-coral">Review the Rules</a>
+                <a href="#insights" class="button-secondary-on-coral">Review the Findings</a>
             </div>
         </div>
     </section>
@@ -517,7 +636,7 @@
             <div class="section-header">
                 <h2 class="display-lg">Methodology</h2>
                 <p class="title-md section-intro">
-                    How we analyzed 60,000 films to extract 5 actionable rules
+                    How we analyzed 60,000 films to surface 5 key findings
                 </p>
             </div>
 
@@ -558,15 +677,15 @@
                     <div class="method-number">05</div>
                     <h3 class="title-lg">Visualization</h3>
                     <p class="body-md">
-                        Created 8 key visualizations using Python (Matplotlib, Seaborn) to make insights 
+                        Created 14 key visualizations using Python (Matplotlib, Seaborn) to make insights 
                         immediately actionable for filmmakers.
                     </p>
                 </div>
                 <div class="methodology-card">
                     <div class="method-number">06</div>
-                    <h3 class="title-lg">Rule Extraction</h3>
+                    <h3 class="title-lg">Pattern Extraction</h3>
                     <p class="body-md">
-                        Distilled findings into 5 concrete, measurable rules that debut filmmakers can 
+                        Distilled findings into 5 concrete, measurable patterns that debut filmmakers can 
                         apply directly to their projects.
                     </p>
                 </div>
@@ -588,7 +707,7 @@
                         <div class="summary-label">Sweet Spot Rate</div>
                     </div>
                     <div class="summary-stat">
-                        <div class="summary-number">8</div>
+                        <div class="summary-number">14</div>
                         <div class="summary-label">Key Visualizations</div>
                     </div>
                 </div>
@@ -608,7 +727,7 @@
                     <h4 class="footer-heading">Project</h4>
                     <ul class="footer-links">
                         <li><a href="#overview">Overview</a></li>
-                        <li><a href="#rules">The 5 Rules</a></li>
+                        <li><a href="#insights">5 Key Findings</a></li>
                         <li><a href="#data">Data Insights</a></li>
                         <li><a href="#methodology">Methodology</a></li>
                     </ul>
